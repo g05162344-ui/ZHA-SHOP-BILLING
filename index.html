@@ -822,7 +822,7 @@ function formatCashChange(bill){
 
 // ---------- WhatsApp bill sending (opens wa.me with message pre-filled; user taps Send) ----------
 function buildWhatsAppMessage(bill){
-  let msg = `🧾 *Kadai Bill*\n`;
+  let msg = `🧾 *ZHA Bill*\n`;
   msg += `Customer: ${bill.customer}\n`;
   msg += `Date: ${new Date(bill.date).toLocaleString()}\n\n`;
   bill.items.forEach(it=>{
